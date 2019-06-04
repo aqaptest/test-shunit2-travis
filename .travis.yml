@@ -2,7 +2,7 @@
 language: bash
 
 env:
-- BlueSwan_API_KEY = "lK1r+/yTueZ6CIIjgjLJRqH2xFbnMinLBOoYZeEaqdg=",BlueSwan_SUITE_ID = "12",BlueSwan_BROWSER = "Chrome",BlueSwan_VARIABLES = "name1=javas,input=admin",BlueSwan_BUILD_TAG = "tfstest",BlueSwan_BASE_URL = "https://www.phptravels.net/"
+- BlueSwan_API_KEY : "lK1r+/yTueZ6CIIjgjLJRqH2xFbnMinLBOoYZeEaqdg=", BlueSwan_SUITE_ID : "12", BlueSwan_BROWSER : "Chrome", BlueSwan_VARIABLES = "name1=javas,input=admin", BlueSwan_BUILD_TAG = "tfstest", BlueSwan_BASE_URL = "https://www.phptravels.net/"
 
 before_script:
 - curl -O https://blueswan.s3.amazonaws.com/45/8906b57db55749168c74d23b3b0d3432/BlueSwan-tfs.sh
