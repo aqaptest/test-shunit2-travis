@@ -1,12 +1,10 @@
-    
+env:
+     - CLOUDQA_API_KEY="1La4je3UlXvFTjNeBqdAHKCG+2BDLd3o3BklEwfLv7k=" CLOUDQA_SUITE_ID=4 CLOUDQA_BROWSER=Chrome CLOUDQA_VARIABLES="var1=val1,var2=val2" CLOUDQA_BUILD_TAG=Billing_Test CLOUDQA_BASE_URL="https://www.seleniumeasy.com/"
+
 language: bash
 
-env:
-- BlueSwan_API_KEY="RExAVTrOvI+jdJaNTfFS665MClIN+718la6+q6ZUeVU=" BlueSwan_SUITE_ID="12" BlueSwan_BROWSER="Chrome" BlueSwan_VARIABLES="name1=javas,input=admin" BlueSwan_BUILD_TAG="tfstest" BlueSwan_BASE_URL="https://www.phptravels.net/"
-
 before_script:
-- curl -O https://blueswan.s3.amazonaws.com/45/c681e57bb2fe4eb59ce513055142f054/BlueSwan-tfs.sh
+    - curl -0 https://devcquserfiles.s3.amazonaws.com/6/5782a2552110432aa84c1d82054fa2df/cloudqa-travisci.sh
 
-script:
-- bash BlueSwan-tfs.sh
-
+script: 
+    - bash cloudqa-travisci.sh
