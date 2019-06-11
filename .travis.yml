@@ -1,10 +1,10 @@
 env:
-     - CLOUDQA_API_KEY="1La4je3UlXvFTjNeBqdAHKCG+2BDLd3o3BklEwfLv7k=" CLOUDQA_SUITE_ID=4 CLOUDQA_BROWSER=Chrome CLOUDQA_VARIABLES="var1=val1,var2=val2" CLOUDQA_BUILD_TAG=Billing_Test CLOUDQA_BASE_URL="https://www.seleniumeasy.com/" RUN_SEQUENTIALLY = 0
+     - CLOUDQA_API_KEY="DJiKvMPbfAGVbLh/2BoBMkDjD2TxKSZTczpVPQ7T8R0=" CLOUDQA_SUITE_ID=3 CLOUDQA_BROWSER=Chrome CLOUDQA_VARIABLES="var1=val1,var2=val2" CLOUDQA_BUILD_TAG=Billing_Test CLOUDQA_BASE_URL="https://www.seleniumeasy.com/" RUN_SEQUENTIALLY = 0
 
 language: bash
 
 before_script:
-    - curl -O https://devcquserfiles.s3.amazonaws.com/6/6045b4de3d184574b1a7c2193f9d5368/cloudqa-travisci.sh
+    - curl -O https://devcquserfiles.s3.amazonaws.com/98/d7dbb88acf494bb19237b20e4647d8cf/cloudqa-travisci%20(1).sh
 
 script: 
-    - bash cloudqa-travisci.sh
+    - bash cloudqa-travisci(1).sh
