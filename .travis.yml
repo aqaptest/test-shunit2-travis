@@ -1,5 +1,5 @@
 env:
-     - CLOUDQA_API_KEY="MPzTXks8vUKo0/at0yExuMZ0DqH+Nd+1/xybvc4pdiI=" CLOUDQA_SUITE_ID=2004 CLOUDQA_BROWSER=Chrome CLOUDQA_VARIABLES="var1=val1,var2=val2" CLOUDQA_BUILD_TAG=Billing_Test CLOUDQA_BASE_URL="http://the-internet.herokuapp.com/" RUN_SEQUENTIALLY = 1
+     - CLOUDQA_API_KEY="MPzTXks8vUKo0/at0yExuMZ0DqH+Nd+1/xybvc4pdiI=" CLOUDQA_SUITE_ID=2004 CLOUDQA_BROWSER=Chrome CLOUDQA_VARIABLES="var1=val1,var2=val2" CLOUDQA_BUILD_TAG=Billing_Test CLOUDQA_BASE_URL="http://the-internet.herokuapp.com/" RUN_SEQUENTIALLY = 0
 
 language: bash
 
