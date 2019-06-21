@@ -4,7 +4,7 @@ env:
 language: bash
 
 before_script:
-    - curl -O https://devcquserfiles.s3.amazonaws.com/98/d9d0c396214d45358c27e51e7b34e70e/cloudqa-travisci.sh
+    - curl -O https://doc.cloudqa.io/files/cloudqa-travisci.sh
 
 script: 
     - bash cloudqa-travisci.sh
