@@ -1,10 +1,10 @@
 env:
-     - CLOUDQA_API_KEY="wVx7/sHpv4ubzS+OTIbWBYQ3+S1z1SkJMmkBKanlk4U=" CLOUDQA_SUITE_ID=7005 CLOUDQA_BROWSER=Chrome CLOUDQA_VARIABLES="var1=val1,var2=val2" CLOUDQA_BUILD_TAG=Billing_Test CLOUDQA_BASE_URL="https://www.toolsqa.com/" RUN_SEQUENTIALLY = 0
+     - CLOUDQA_API_KEY="SWdYKAHgJJxD8qdaiy9uy5whcI1JY34Q4uM1bOJyJBg=" CLOUDQA_SUITE_ID=1768 CLOUDQA_BROWSER=Chrome CLOUDQA_VARIABLES="var1=val1,var2=val2" CLOUDQA_BUILD_TAG=Billing_Test CLOUDQA_BASE_URL="https://www.freecharge.in/" RUN_SEQUENTIALLY = 0
 
 language: bash
 
 before_script:
-    - curl -0 https://devcquserfiles.s3.amazonaws.com/21039/b0fac154b4424feca069fa64720d4243/cloudqa-travisci.sh
+    - curl -0 https://doc.cloudqa.io/files/cloudqa-travisci.sh
 
 script: 
     - bash cloudqa-travisci.sh
