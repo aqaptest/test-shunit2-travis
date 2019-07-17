@@ -1,5 +1,5 @@
 env:
-     - CLOUDQA_API_KEY="wdJUwbIx8U7em6AJeMzy2QUuqKkF90lQ+3bxP0xJV0Y=" CLOUDQA_SUITE_ID=3 CLOUDQA_BROWSER=Firefox CLOUDQA_VARIABLES="var1=val1,var2=val2" CLOUDQA_BUILD_TAG="termination_test" CLOUDQA_BASE_URL="https://www.seleniumeasy.com/" RUN_SEQUENTIALLY = 0
+     - CLOUDQA_API_KEY="wdJUwbIx8U7em6AJeMzy2QUuqKkF90lQ+3bxP0xJV0Y=" CLOUDQA_SUITE_ID=3 CLOUDQA_BROWSER=Firefox CLOUDQA_VARIABLES="var1=val1,var2=val2" CLOUDQA_BUILD_TAG="termination_test" CLOUDQA_BASE_URL="https://www.seleniumeasy.com/" RUN_SEQUENTIALLY=0
 
 language: bash
 
