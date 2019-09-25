@@ -4,9 +4,10 @@ env:
 language: bash
 
 before_script:
-    - curl -O https://cquserfiles.s3.amazonaws.com/5066/af6b192b238d470ebb44edd1ffc5b942/cloudqa-travisciapp.sh
+    - sudo apt-get update && sudo apt-get install -y jq
+    - curl -O https://doc.cloudqa.io/files/cloudqa-bash.sh
 
 script: 
-    - bash cloudqa-travisciapp.sh
+    - bash cloudqa-bash.sh
     
 
