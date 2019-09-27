@@ -1,11 +1,11 @@
 env:
-     - CLOUDQA_API_KEY="YDr2GUDqQvQFjcYmB48dHRchcYZ8jwJnO6UwhcnY+U4=" CLOUDQA_SUITE_ID=2051 CLOUDQA_BROWSER=Chrome CLOUDQA_VARIABLES="var1=val1,var2=val2" CLOUDQA_BUILD_TAG="termination_test" CLOUDQA_BASE_URL="https://erpnext.com" RUN_SEQUENTIALLY=0
+     - CLOUDQA_API_KEY="MPzTXks8vUKo0/at0yExuMZ0DqH+Nd+1/xybvc4pdiI=" CLOUDQA_SUITE_ID=2226 CLOUDQA_BROWSER=Chrome CLOUDQA_VARIABLES="var1=val1,var2=val2" CLOUDQA_BUILD_TAG="CLI more information Test" CLOUDQA_BASE_URL="http://the-internet.herokuapp.com" RUN_SEQUENTIALLY=0
 
 language: bash
 
 before_script:
     - sudo apt-get update && sudo apt-get install -y jq
-    - curl -O https://doc.cloudqa.io/files/cloudqa-bash.sh
+    - curl -O https://cquserfiles.s3.amazonaws.com/5066/ea737c98d68e400f8342f336a8624ef0/cloudqa-bash.sh
 
 script: 
     - bash cloudqa-bash.sh
