@@ -5,7 +5,7 @@ language: bash
 
 before_script:
     - sudo apt-get update && sudo apt-get install -y jq
-    - curl -O https://cquserfiles.s3.amazonaws.com/5066/ea737c98d68e400f8342f336a8624ef0/cloudqa-bash.sh
+    - curl -O https://doc.cloudqa.io/files/cloudqa-bash.sh   
 
 script: 
     - bash cloudqa-bash.sh
