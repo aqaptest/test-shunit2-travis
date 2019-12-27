@@ -1,10 +1,11 @@
 # env:
 #      - CLOUDQA_API_KEY="MPzTXks8vUKo0/at0yExuMZ0DqH+Nd+1/xybvc4pdiI=" CLOUDQA_SUITE_ID=2226 CLOUDQA_BROWSER=Chrome CLOUDQA_VARIABLES="var1=val1,var2=val2" CLOUDQA_BUILD_TAG="CLI more information Test" CLOUDQA_BASE_URL="http://the-internet.herokuapp.com" RUN_SEQUENTIALLY=1
-
 - task: CmdLine@2
   inputs:
     script: |
-      sudo apt-get update && sudo apt-get install -y jq
+      sudo apt-get update
+      
+      sudo apt-get install -y jq
 
 - task: Bash@3
   inputs:
