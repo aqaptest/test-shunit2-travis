@@ -18,7 +18,7 @@ language: bash
 
 before_script:
     - sudo apt-get update && sudo apt-get install -y jq
-    - curl -O https://doc.cloudqa.io/files/cloudqa-bash.sh   
+    - curl -O https://doc.cloudqa.io/files/cloudqa-travisci.sh  
 
 script: 
-    - bash cloudqa-bash.sh
+    - bash cloudqa-travisci.sh
