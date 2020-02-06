@@ -18,9 +18,9 @@ language: bash
 
 before_script:
     - sudo apt-get update && sudo apt-get install -y jq
-    - curl -O https://devcquserfiles.s3.amazonaws.com/5297/c18253b70c984d6d97dcc3c5ccec15f2/cloudqa-bash_latest.sh
+    - curl -O https://devcquserfiles.s3.amazonaws.com/5297/7da10499860046ec98876058592aff18/cloudqa-bash.sh
 
 
 script: 
-    - bash cloudqa-bash_latest.sh
+    - bash cloudqa-bash.sh
     
