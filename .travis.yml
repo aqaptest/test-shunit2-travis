@@ -12,13 +12,13 @@
 #    filePath: 'https://doc.cloudqa.io/files/cloudqa-bash.sh'
 
 env:
-     - CLOUDQA_API_KEY="MPzTXks8vUKo0/at0yExuMZ0DqH+Nd+1/xybvc4pdiI=" CLOUDQA_SUITE_ID=1146 CLOUDQA_BROWSER=Chrome CLOUDQA_VARIABLES="var1=val1,var2=val2" CLOUDQA_BUILD_TAG="Variable test" CLOUDQA_BASE_URL="http://www.seleniumeasy.com" CLOUDQA_SEQUENTIAL_EXECUTION=TRUE CLOUDQA_ENVIRONMENT_NAME="qa" 
+     - CLOUDQA_API_KEY="jI3xPHG/opQKVNnQO8rg52r1lsw+rNqM6eYDszK0nQU=" CLOUDQA_SUITE_ID=1146 CLOUDQA_BROWSER=Chrome CLOUDQA_VARIABLES="var1=val1,var2=val2" CLOUDQA_BUILD_TAG="Variable test" CLOUDQA_BASE_URL="http://www.seleniumeasy.com" CLOUDQA_SEQUENTIAL_EXECUTION=TRUE CLOUDQA_ENVIRONMENT_NAME="qa" 
 
 language: bash
 
 before_script:
     - sudo apt-get update && sudo apt-get install -y jq
-    - curl -O https://devcquserfiles.s3.amazonaws.com/5297/71a9a2a084084febae4a86b971160678/cloudqa-stage-travisci.sh
+    - curl -O https://devcquserfiles.s3.amazonaws.com/5297/a853dcc0721c44229f60b1136ea3cb5b/cloudqa-stage-travisci.sh
 
 
 script: 
