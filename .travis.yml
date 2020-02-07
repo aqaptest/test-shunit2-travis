@@ -12,7 +12,7 @@
 #    filePath: 'https://doc.cloudqa.io/files/cloudqa-bash.sh'
 
 env:
-     - CLOUDQA_API_KEY="wdJUwbIx8U7em6AJeMzy2QUuqKkF90lQ+3bxP0xJV0Y=" CLOUDQA_SUITE_ID=36 CLOUDQA_BROWSER=Chrome CLOUDQA_VARIABLES="var1=val1,var2=val2" CLOUDQA_BUILD_TAG="Variable test" CLOUDQA_BASE_URL="http://www.seleniumeasy.com" CLOUDQA_SEQUENTIAL_EXECUTION=FALSE CLOUDQA_ENVIRONMENT_NAME="qa" 
+     - CLOUDQA_API_KEY="wdJUwbIx8U7em6AJeMzy2QUuqKkF90lQ+3bxP0xJV0Y=" CLOUDQA_SUITE_ID=36 CLOUDQA_BROWSER=Chrome CLOUDQA_VARIABLES="var1=val1,var2=val2" CLOUDQA_BUILD_TAG="Parallel test" CLOUDQA_BASE_URL="http://the-internet.herokuapp.com" CLOUDQA_SEQUENTIAL_EXECUTION=FALSE CLOUDQA_ENVIRONMENT_NAME="qa" 
 
 language: bash
 
