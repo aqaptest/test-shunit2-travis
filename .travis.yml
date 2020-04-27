@@ -26,5 +26,6 @@ before_script:
 
 script: 
     - bash cloudqa-app-travisci.sh
+    
 
 
