@@ -13,19 +13,18 @@
 # production with environment https://cquserfiles.s3.amazonaws.com/5066/665857ca352e401491d344cda98c0849/cloudqa-app-travisci.sh
 
 env:
-#     - CLOUDQA_API_KEY="YDr2GUDqQvQFjcYmB48dHRchcYZ8jwJnO6UwhcnY+U4=" CLOUDQA_SUITE_ID=2505 CLOUDQA_BROWSER=Chrome CLOUDQA_VARIABLES="var1=val1,var2=val2" CLOUDQA_BUILD_TAG="Parallel test" CLOUDQA_BASE_URL="http://the-internet.herokuapp.com" CLOUDQA_SEQUENTIAL_EXECUTION=FALSE  CLOUDQA_ENVIRONMENT_NAME="qa"
-      - CLOUDQA_API_KEY="wdJUwbIx8U7em6AJeMzy2QUuqKkF90lQ+3bxP0xJV0Y=" CLOUDQA_SUITE_ID=62 CLOUDQA_BROWSER=Chrome CLOUDQA_VARIABLES="cicdvar1=val1,var2cicd=val2" CLOUDQA_BUILD_TAG="cicd" CLOUDQA_BASE_URL="https://www.seleniumeasy.com/" CLOUDQA_SEQUENTIAL_EXECUTION=FALSE  CLOUDQA_ENVIRONMENT_NAME="qa"
+     - CLOUDQA_API_KEY="Xs0yDZuD1jCGJPuJDCdNEfBfgy6cCLvztrW9lWomkPo=" CLOUDQA_SUITE_ID=2655 CLOUDQA_BROWSER=Chrome CLOUDQA_VARIABLES="var1=val1,var2=val2" CLOUDQA_BUILD_TAG="Parallel test" CLOUDQA_BASE_URL="http://www.seleniumeasy.com/" CLOUDQA_SEQUENTIAL_EXECUTION=FALSE  CLOUDQA_ENVIRONMENT_NAME="main"
+
 language: bash
 
 before_script:
     - sudo apt-get update && sudo apt-get install -y jq
     
 # first for production second for stage
-#    - curl -O https://cquserfiles.s3.amazonaws.com/5066/2f83516109de49578b0de948f3b74eaf/cloudqa-app-travisci.sh
-     - curl -O https://devcquserfiles.s3.amazonaws.com/98/f78eb4ebddd842e8b5bb1e1ade85e21f/cloudqa-travisci.sh
+    - curl -O https://cquserfiles.s3.amazonaws.com/5066/2f83516109de49578b0de948f3b74eaf/cloudqa-app-travisci.sh
 
 
 script: 
-#    - bash cloudqa-app-travisci.sh
-     - bash cloudqa-travisci.sh
+    - bash cloudqa-app-travisci.sh
+
 
