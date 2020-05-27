@@ -1,5 +1,5 @@
 # env:
-#      - CLOUDQA_API_KEY="YDr2GUDqQvQFjcYmB48dHRchcYZ8jwJnO6UwhcnY+U4=" CLOUDQA_SUITE_ID= 1420 CLOUDQA_BROWSER=Chrome CLOUDQA_VARIABLES="var1=val1,var2=val2" CLOUDQA_BUILD_TAG="CLI more information Test" CLOUDQA_BASE_URL=" www.seleniumeasy.com" RUN_SEQUENTIALLY=1
+#      - CLOUDQA_API_KEY="YDr2GUDqQvQFjcYmB48dHRchcYZ8jwJnO6UwhcnY+U4=" CLOUDQA_SUITE_ID= 1420 CLOUDQA_BROWSER=Chrome CLOUDQA_VARIABLES="var1=val1,var2=val2" CLOUDQA_BUILD_TAG="CLI more information Test" CLOUDQA_BASE_URL="www.seleniumeasy.com" RUN_SEQUENTIALLY=1
 #- task: CmdLine@2
 #  inputs:
 #    script: |
@@ -11,10 +11,6 @@
 #  inputs:
 #    filePath: 'https://doc.cloudqa.io/files/cloudqa-bash.sh'
 # production with environment https://cquserfiles.s3.amazonaws.com/5066/665857ca352e401491d344cda98c0849/cloudqa-app-travisci.sh
-
-
-env:
-     - CLOUDQA_API_KEY="MPzTXks8vUKo0/at0yExuMZ0DqH+Nd+1/xybvc4pdiI=" CLOUDQA_SUITE_ID=2682 CLOUDQA_BROWSER=Chrome CLOUDQA_VARIABLES="cicd1=Cloud,cicd2=QA,cicd3=cloudqa@email.com" CLOUDQA_BUILD_TAG="Parallel test" CLOUDQA_BASE_URL="http://www.seleniumeasy.com/" CLOUDQA_SEQUENTIAL_EXECUTION=FALSE CLOUDQA_ENVIRONMENT_NAME="p" 
 
 language: bash
 
