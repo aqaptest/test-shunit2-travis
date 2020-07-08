@@ -9,12 +9,12 @@
 # - task: Bash@3
 #  inputs:
 #    filePath: 'https://doc.cloudqa.io/files/cloudqa-bash.sh'
-# production with environment https://cquserfiles.s3.amazonaws.com/5066/665857ca352e401491d344cda98c0849/cloudqa-app-travisci.sh
+# production with environment https://cquserfiles.s3.amazonaws.com/5066/665857ca352e401491d344cda98c0849/cloudqa-dev-travisci.sh
 
 
 
 
 script: 
-    - bash cloudqa-stage-travisci.sh
+    - bash cloudqa-dev-travisci.sh
     
 
