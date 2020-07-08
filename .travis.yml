@@ -1,3 +1,4 @@
+
 # env:
 #      - CLOUDQA_API_KEY="rKAN2ZIyUQDZLgL27E2oRmP5/uw4mZv4o7raYhQC+xE=" CLOUDQA_SUITE_ID=69 CLOUDQA_BROWSER=Chrome CLOUDQA_VARIABLES="var1=val1,var2=val2" CLOUDQA_BUILD_TAG="CLI more information Test" CLOUDQA_BASE_URL="https://sandbox.cloudqa.io" RUN_SEQUENTIALLY=1#- task: CmdLine@2
 #  inputs:
@@ -16,5 +17,3 @@
 
 script: 
     - bash cloudqa-stage-travisci.sh
-    
-
