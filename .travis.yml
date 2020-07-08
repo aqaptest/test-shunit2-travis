@@ -1,6 +1,6 @@
 
 # env:
-#      - CLOUDQA_API_KEY="rKAN2ZIyUQDZLgL27E2oRmP5/uw4mZv4o7raYhQC+xE=" CLOUDQA_SUITE_ID=69 CLOUDQA_BROWSER=Chrome CLOUDQA_VARIABLES="var1=val1,var2=val2" CLOUDQA_BUILD_TAG="CLI more information Test" CLOUDQA_BASE_URL="https://sandbox.cloudqa.io" RUN_SEQUENTIALLY=1#- task: CmdLine@2
+#      - CLOUDQA_API_KEY="MPzTXks8vUKo0/at0yExuMZ0DqH+Nd+1/xybvc4pdiI=" CLOUDQA_SUITE_ID=2226 CLOUDQA_BROWSER=Chrome CLOUDQA_VARIABLES="var1=val1,var2=val2" CLOUDQA_BUILD_TAG="CLI more information Test" CLOUDQA_BASE_URL="http://the-internet.herokuapp.com" RUN_SEQUENTIALLY=1#- task: CmdLine@2
 #  inputs:
 #    script: |
 #      sudo apt-get update
@@ -10,18 +10,21 @@
 # - task: Bash@3
 #  inputs:
 #    filePath: 'https://doc.cloudqa.io/files/cloudqa-bash.sh'
-# production with environment https://cquserfiles.s3.amazonaws.com/5066/665857ca352e401491d344cda98c0849/cloudqa-stage-travisci.sh
+# production with environment https://cquserfiles.s3.amazonaws.com/5066/665857ca352e401491d344cda98c0849/cloudqa-app-travisci.sh
+
 
 env:
-     - CLOUDQA_API_KEY="rKAN2ZIyUQDZLgL27E2oRmP5/uw4mZv4o7raYhQC+xE=" CLOUDQA_SUITE_ID=69 CLOUDQA_BROWSER=Chrome CLOUDQA_VARIABLES="cicd1=3,cicd2=3,cicd3=6" CLOUDQA_BUILD_TAG="cicd variable" CLOUDQA_BASE_URL="https://sandbox.cloudqa.io/" CLOUDQA_SEQUENTIAL_EXECUTION=TRUE  CLOUDQA_ENVIRONMENT_NAME=""
+     - CLOUDQA_API_KEY="wdJUwbIx8U7em6AJeMzy2QUuqKkF90lQ+3bxP0xJV0Y=" CLOUDQA_SUITE_ID=64 CLOUDQA_BROWSER=Chrome CLOUDQA_VARIABLES="cicd1=3,cicd2=3,cicd3=6" CLOUDQA_BUILD_TAG="cicd variable" CLOUDQA_BASE_URL="http://www.seleniumeasy.com/" CLOUDQA_SEQUENTIAL_EXECUTION=TRUE  CLOUDQA_ENVIRONMENT_NAME="qa"
+
 language: bash
+
 before_script:
     - sudo apt-get update && sudo apt-get install -y jq
+    
 # first for production second for stage
     - curl -O https://devcquserfiles.s3.amazonaws.com/98/0502281c2a44492792039aa3ef6476ec/cloudqa-stage-travisci.sh
 
 
 script: 
     - bash cloudqa-stage-travisci.sh
-
 
