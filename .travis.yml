@@ -1,5 +1,5 @@
 # env:
-#      - CLOUDQA_API_KEY="qWQgvZqigeMry9q9b4AKIU8jarQTK6JCgtI4aIMDCiA=" CLOUDQA_SUITE_ID=2226 CLOUDQA_BROWSER=Chrome CLOUDQA_VARIABLES="var1=val1,var2=val2" CLOUDQA_BUILD_TAG="CLI more information Test" CLOUDQA_BASE_URL="https://demo.qloapps.com" RUN_SEQUENTIALLY=1#- task: CmdLine@2
+#      - CLOUDQA_API_KEY="qWQgvZqigeMry9q9b4AKIU8jarQTK6JCgtI4aIMDCiA=" CLOUDQA_SUITE_ID=77 CLOUDQA_BROWSER=Chrome CLOUDQA_VARIABLES="var1=val1,var2=val2" CLOUDQA_BUILD_TAG="CLI more information Test" CLOUDQA_BASE_URL="https://demo.qloapps.com" RUN_SEQUENTIALLY=1#- task: CmdLine@2
 #  inputs:
 #    script: |
 #      sudo apt-get update
