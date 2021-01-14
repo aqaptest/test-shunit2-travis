@@ -14,7 +14,7 @@
 
 
 env:
-     - CLOUDQA_API_KEY="MPzTXks8vUKo0/at0yExuMZ0DqH+Nd+1/xybvc4pdiI=" CLOUDQA_SUITE_ID=20 CLOUDQA_BROWSER=Chrome CLOUDQA_VARIABLES="cicd1=Cloud,cicd2=QA,cicd3=cloudqa@email.com" CLOUDQA_BUILD_TAG="Parallel test" CLOUDQA_BASE_URL="http://www.seleniumeasy.com/" CLOUDQA_SEQUENTIAL_EXECUTION=FALSE  CLOUDQA_ENVIRONMENT_NAME="main"
+     - CLOUDQA_API_KEY="MPzTXks8vUKo0/at0yExuMZ0DqH+Nd+1/xybvc4pdiI=" CLOUDQA_SUITE_ID=2096 CLOUDQA_BROWSER=Chrome CLOUDQA_VARIABLES="cicd1=Cloud,cicd2=QA,cicd3=cloudqa@email.com" CLOUDQA_BUILD_TAG="Parallel test" CLOUDQA_BASE_URL="http://www.seleniumeasy.com/" CLOUDQA_SEQUENTIAL_EXECUTION=FALSE  
 
 language: bash
 
